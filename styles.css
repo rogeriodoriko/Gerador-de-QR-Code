@@ -32,7 +32,10 @@ input {
   padding: 10px;
   margin-bottom: 10px;
 }
-
+#qrcode {
+  display: flex;
+  justify-content: center;
+}
 button {
   background-color: #4caf50;
   color: white;
