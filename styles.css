@@ -1,5 +1,9 @@
+@font-face {
+  font-family: opensans;
+  src: url(OpenSans-Bold.ttf);
+}
 body {
-  font-family: Arial, sans-serif;
+  font-family: opensans;
   display: block;
   justify-content: center;
   align-items: center;
