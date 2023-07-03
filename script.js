@@ -4,10 +4,8 @@ function generateQRCode() {
     alert("Por favor, digite um texto ou link válido.");
     return;
   }
-
   var qrcodeContainer = document.getElementById("qrcode");
   qrcodeContainer.innerHTML = "";
-
   var qrcode = new QRCode(qrcodeContainer, {
     text: inputData,
     width: 256,
