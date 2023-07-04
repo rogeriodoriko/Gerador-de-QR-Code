@@ -36,6 +36,7 @@ input {
   display: flex;
   justify-content: center;
 }
+
 button {
   background-color: #4caf50;
   color: white;
